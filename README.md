@@ -1,5 +1,5 @@
 # home-soc-lab
-Cybersecurity home SOC lab project
+Cybersecurity SOC lab using Splunk, Kali Linux, and Windows VM for threat detection practice
 # Home SOC Lab (Security Operations Center)
 
 ## Overview
