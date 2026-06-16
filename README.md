@@ -55,10 +55,5 @@ I wanted to gain hands-on experience with cybersecurity monitoring tools and und
 
 ---
 
-## 📸 Screenshots
-(Add screenshots of Splunk dashboards, Nmap scans, and logs here)
-
----
-
 ## 📌 Key Takeaway
 This project demonstrated my ability to monitor systems, analyze security logs, and detect malicious activity in a simulated enterprise environment.
