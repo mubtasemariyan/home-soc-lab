@@ -1,59 +1,63 @@
-# home-soc-lab
-Cybersecurity SOC lab using Splunk, Kali Linux, and Windows VM for threat detection practice
 # Home SOC Lab (Security Operations Center)
 
 ## Overview
-This project simulates a real-world Security Operations Center (SOC) environment using virtual machines and SIEM tools. The goal was to detect, analyze, and respond to suspicious activity such as brute-force login attempts and network scanning.
+
+This project demonstrates the creation of a basic home cybersecurity lab using Kali Linux running in a virtual machine environment. The goal was to gain hands-on experience with Linux, networking tools, and basic security monitoring concepts.
 
 ---
 
-## 🎯 Why I Built This
-I wanted to gain hands-on experience with cybersecurity monitoring tools and understand how real security analysts detect threats in enterprise environments.
+## Why I Built This
+
+I wanted to learn how cybersecurity professionals use Linux systems and security tools in a controlled environment. Building a home lab provided practical experience with system administration and network analysis.
 
 ---
 
-## 🛠️ Tools Used
-- VirtualBox / VMware
-- Windows 10 VM
-- Kali Linux VM
-- Splunk Free
-- Sysmon
-- Nmap
+## Tools Used
+
+* Kali Linux
+* UTM Virtual Machine
+* Nmap
+* Python HTTP Server
 
 ---
 
-## ⚙️ What I Built
-- A virtual lab with Windows and Kali Linux machines
-- Configured Sysmon for Windows event logging
-- Installed Splunk to collect and analyze logs
-- Simulated attacks using Nmap and login attempts
-- Built dashboards to detect suspicious activity
+## What I Built
+
+* Installed and configured Kali Linux in a virtual machine
+* Created a local testing environment
+* Started a Python HTTP service on port 8000
+* Performed network scans against the local system
+* Identified open ports and running services
 
 ---
 
-## 🚨 Simulated Attacks
-- Port scanning using Nmap
-- Multiple failed login attempts
-- Basic brute-force simulation
+## Results
+
+* Successfully deployed Kali Linux on Apple Silicon hardware
+* Created a local HTTP service using Python
+* Detected open services using Nmap
+* Performed service discovery and basic network enumeration
 
 ---
 
-## 📊 Results / Metrics
-- Detected 100% of simulated port scans in Splunk logs
-- Identified repeated failed login attempts within seconds
-- Created 3 custom Splunk dashboards for monitoring
-- Logged and analyzed 500+ security events
+## What I Learned
+
+* Linux command-line fundamentals
+* Virtual machine deployment
+* Network scanning concepts
+* Service enumeration techniques
+* Basic cybersecurity lab setup
 
 ---
 
-## 🧠 What I Learned
-- How SIEM systems work in real environments
-- How logs are generated and analyzed
-- Basics of incident detection and response
-- Windows event logging using Sysmon
-- Network scanning techniques used by attackers
+## Screenshots
+
+1. Kali Linux desktop environment
+2. Python HTTP server running on port 8000
+3. Nmap service detection results
 
 ---
 
-## 📌 Key Takeaway
-This project demonstrated my ability to monitor systems, analyze security logs, and detect malicious activity in a simulated enterprise environment.
+## Key Takeaway
+
+This project provided hands-on experience with Linux, virtualization, and network reconnaissance techniques commonly used in cybersecurity environments.
